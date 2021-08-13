@@ -1,0 +1,17 @@
+%listreset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+%columns3 {
+    margin: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+        padding: 10px;
+        width: calc(100% / 3);
+    }
+}

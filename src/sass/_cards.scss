@@ -1,0 +1,62 @@
+// .cards {
+//     display: flex;
+//     @extend %listreset;
+//     flex-wrap: wrap;
+//     margin: 0 -10px;
+
+//     > li {
+//         padding: 0 5px 10px;
+//         display: flex;
+//         width: 100%;
+
+//         @media (min-width: 576px) {
+//             width: 50%;
+//             padding: 0 10px 20px;
+//         }
+
+//         @media (min-width: 992px) {
+//             width: calc(100% / 3);
+//         }
+//     }
+// }
+
+// .card {
+//     width: 100%;
+//     padding: 5px;
+//     border: 1px solid $black;
+//     border-radius: 20px;
+//     display: flex;
+//     flex-direction: column;
+//     transition: box-shadow 1s;
+
+//     @media (min-width: 576px) {
+//         padding: 10px;
+//     }
+
+//     &:hover {
+//         box-shadow: 0 0 25px #38a7e7;
+//     }
+
+//     &__body {
+//         flex-grow: 1;
+//     }
+
+//     &__title {
+//         margin-block-start: 0;
+//         margin-block-end: 0;
+//         margin: 5px 0;
+//         font-size: 18px;
+//     }
+
+//     &__visual {
+//         @include  circle(100px);
+//         border: 5px solid #C5B5B5;
+//         overflow: hidden;
+//         margin: 0 auto;
+
+//         @media (min-width: 576px) {
+//             border: 10px solid #C5B5B5;
+//         }
+//     }
+// }
+

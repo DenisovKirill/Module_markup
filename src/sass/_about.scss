@@ -1,0 +1,20 @@
+.about {
+    padding: 165px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+
+    &__text {
+        padding-top: 24px;
+    }
+
+    &__title {
+        text-align-last: left;
+        padding-bottom: 12px;
+    }
+
+    p {
+        padding-right: 125px;
+        letter-spacing: .438px;
+    }
+}

@@ -1,0 +1,28 @@
+.promo {
+    background: url(../img/banner_bcg.jpg) center (center/cover) no-repeat;
+    min-height: 600px;
+
+    .promo__form {
+        margin: 100px 45px 0 auto;
+    }
+
+    &__text {
+        margin: 159px 0 0 50px;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        color: $white;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 72px;
+        margin: 0 0 24px 0;
+    }
+
+    &__subtitle {
+        font-family: "Freestyle Script";
+        color: $white;
+        font-size: 40px;
+        font-weight: 400;
+    }
+}

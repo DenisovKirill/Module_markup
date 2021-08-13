@@ -1,0 +1,66 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        @extend %listreset;
+        width: 25%;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+    }
+
+    a {
+        display: block;
+        position: relative;
+
+        &:before {
+            z-index: 2;
+            content: "\e986";
+            position: absolute;
+            color: #5b6ceb;
+            font-family: "icomoon";
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 18px;
+            width: 42px;
+            height: 42px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 1s;
+        }
+
+        &:after {
+            z-index: 1;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #5b6ceb;
+            opacity: 0;
+            visibility: hidden;
+            transition: 0.3s;
+            transition: all 1s;
+        }
+
+        &:hover:before {
+            visibility: visible;
+            opacity: 1;
+         }
+
+        &:hover:after {
+            visibility: visible;
+            opacity: 0.8;
+        }
+    }
+}

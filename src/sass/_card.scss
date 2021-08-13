@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    min-height: 300px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 1s;
+
+    &:hover {
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    &__visual {
+        flex-shrink: 0;
+        width: 50%;
+    }
+
+    &__text {
+        padding: 35px 0 10px 15px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    h3 {
+        color: #777777;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 45px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        letter-spacing: -0.52px;
+    }
+
+    p {
+        margin-bottom: 5px;
+        letter-spacing: 0.438px;
+        padding-right: 45px;
+    }
+}

@@ -1,0 +1,13 @@
+.social {
+    display: flex;
+    padding: 23px 0 100px;
+    li {
+        @extend %listreset;
+        margin-right: 17px;
+    }
+
+    a {
+        font-size: 21px;
+        color: $white;
+    }
+}

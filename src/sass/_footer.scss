@@ -1,0 +1,53 @@
+.footer {
+    background: $main-color-1;
+    color: $white;
+    padding-top: 97px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+
+    h3 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        text-transform: uppercase;
+        margin-bottom: 51px;
+    }
+
+    &__contacts-info {
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+            @extend %listreset;
+            width: 50%;
+            padding-bottom: 22px;
+        }
+    }
+
+    p {
+        margin-right: 140px;
+        letter-spacing: .438px;
+    }
+
+    &__contacts {
+        padding-left: 15px;
+    }
+
+    &__contacts-item {
+        display: flex;
+
+        &:nth-child(even) {
+            padding-left: 30px;
+        }
+
+        i {
+            font-size: 21px;
+        }
+    }
+
+    &__contacts-text {
+        margin-left: 20px;
+    }
+
+}

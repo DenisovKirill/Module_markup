@@ -1,0 +1,10 @@
+@mixin circle($size) {
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+}
+
+@mixin move_card ($x, $y, $deg) {
+    transition: all 1s;
+    transform: translateY($x) translateX($y) rotate($deg);
+}
