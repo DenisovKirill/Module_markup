@@ -3,26 +3,48 @@
     min-height: 600px;
 
     .promo__form {
-        margin: 100px 45px 0 auto;
+        margin: 15px auto;
+
+        @media(min-width: 768px) {
+            margin: 100px 45px 0 auto;
+        }
     }
 
     &__text {
-        margin: 159px 0 0 50px;
+        margin: 15px auto;
+        text-align: center;
+
+        @media(min-width: 768px) {
+            margin: 159px 0 0 50px;
+            text-align: left;
+        }
     }
 
     &__title {
         text-transform: uppercase;
         color: $white;
-        font-size: 48px;
+        font-size: 30px;
         font-weight: 700;
-        line-height: 72px;
-        margin: 0 0 24px 0;
+        line-height: 50px;
+        margin-bottom: 16px;
+
+        @media(min-width: 768px) {
+            font-size: 48px;
+            line-height: 72px;
+            margin-bottom: 24px;
+        }
     }
 
     &__subtitle {
         font-family: $font-secondary;
         color: $white;
-        font-size: 40px;
+        font-size: 26px;
         font-weight: 400;
+        padding-bottom: 45px;
+
+        @media(min-width: 768px) {
+            font-size: 40px;
+            padding-bottom: 0;
+        }
     }
 }

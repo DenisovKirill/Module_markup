@@ -4,7 +4,11 @@
 
     li {
         @extend %listreset;
-        width: 25%;
+        width: 50%;
+
+        @media(min-width: 768px) {
+            width: 25%;
+        }
     }
 
     img {
