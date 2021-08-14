@@ -10,9 +10,13 @@
     overflow: hidden;
     font-family: $font;
     color: $color-text;
-    // display: flex;
-    // flex-direction: column;
-    // min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
 }
 
 .container {
@@ -39,7 +43,6 @@
     font-size: 29px;
     font-weight: 700;
     line-height: 45px;
-    letter-spacing: -0.12px;
     padding-bottom: 5px;
 }
 
