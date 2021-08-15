@@ -2,6 +2,10 @@
     padding: 20px 0;
 
     @media(min-width: 768px) {
+        padding: 40px 0 100px;
+    }
+
+    @media(min-width: 992px) {
         padding: 114px 0 190px;
     }
 
@@ -20,6 +24,10 @@
         margin: 20px -15px 0;
 
         @media(min-width: 768px) {
+            margin-top: 30px;
+        }
+
+        @media(min-width: 992px) {
             margin-top: 65px;
         }
     }
@@ -29,7 +37,7 @@
         padding: 0 15px 25px 15px;
         display: flex;
 
-        @media(min-width: 768px) {
+        @media(min-width: 576px) {
             width: 50%;
         }
     }

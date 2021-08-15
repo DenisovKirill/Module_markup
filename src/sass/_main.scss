@@ -45,10 +45,10 @@ main {
     text-align: center;
     color: $main-color-1;
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 32px;
-    padding-bottom: 5px;
+    padding-bottom: 0;
 
     @media(min-width: 768px) {
         font-size: 29px;

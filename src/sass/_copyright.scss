@@ -1,5 +1,5 @@
 .copyright {
-    padding: 39px 0 40px;
+    padding: 10px 0;
     color: #b7bffc;
     font-size: 14px;
     font-weight: 400;
@@ -7,7 +7,12 @@
     text-align: center;
     border-top: 1px solid #5c99b6;
 
+    @media(min-width: 768px) {
+        padding: 39px 0 40px;
+    }
+
     p {
         margin: 0;
+        text-align: center;
     }
 }

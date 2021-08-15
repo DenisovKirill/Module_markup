@@ -41,7 +41,7 @@
     carousel.style.cssText = `
         position: absolute;
         right: 0;
-        bottom: 30px;
+        bottom: 10px;
         left: 0;
         z-index: 15;
         display: flex;
@@ -57,8 +57,8 @@
         dot.style.cssText = `
             box-sizing: content-box;
             flex: 0 1 auto;
-            width: 30px;
-            height: 6px;
+            width: 20px;
+            height: 5px;
             margin-right: 3px;
             margin-left: 3px;
             cursor: pointer;

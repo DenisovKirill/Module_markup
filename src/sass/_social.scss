@@ -1,6 +1,13 @@
 .social {
     display: flex;
-    padding: 23px 0 100px;
+    padding: 15px 0;
+    justify-content: space-around;
+
+    @media(min-width: 768px) {
+        justify-content: start;
+        padding: 23px 0 100px;
+    }
+
     li {
         @extend %listreset;
         margin-right: 17px;
