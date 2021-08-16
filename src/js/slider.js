@@ -1,4 +1,4 @@
-        function slider({container, slide, nextArrov, prevArrow, totalCounter, currentCounter, wrapper, field}) {
+function slider({container, slide, nextArrov, prevArrow, totalCounter, currentCounter, wrapper, field}) {
 
     const slides = document.querySelectorAll(container),
           slider = document.querySelector(slide),
@@ -76,7 +76,7 @@
     }
 
     function toDigit(string) {
-        return +string.replace(/\D/g, '');
+        return parseInt(string);
     }
 
     function setCurrent() {
@@ -144,6 +144,18 @@
     });
 }
 
+slider({
+    container: '.slide',
+    slide: '.slider',
+    prevArrow: '.slider__prev',
+    nextArrov: '.slider__next',
+    totalCounter: '#total',
+    currentCounter: '#current',
+    wrapper: '.slider__wrapper',
+    field: '.slider__inner'
+});
+
+window.addEventListener('resize', ()=> {
     slider({
         container: '.slide',
         slide: '.slider',
@@ -154,3 +166,4 @@
         wrapper: '.slider__wrapper',
         field: '.slider__inner'
     });
+})

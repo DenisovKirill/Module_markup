@@ -18,12 +18,12 @@
                 </div>
                 <nav class="menu">
                     <ul class="menu-holder">
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Reservation</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Elements</a></li>
-                        <li><a href="#">Shop</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#reserv-form">Reservation</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#program">Blog</a></li>
+                        <li><a href="#features">Elements</a></li>
+                        <li><a href="#shop">Shop</a></li>
                     </ul>
                     <div class="menu-burger">
                         <input id="menu-burger__toggle" type="checkbox">
@@ -31,12 +31,12 @@
                             <span></span>
                         </label>
                         <ul class="menu-burger__holder">
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Reservation</a></li>
-                            <li><a href="#">Gallery</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Elements</a></li>
-                            <li><a href="#">Shop</a></li>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#reserv-form">Reservation</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#program">Blog</a></li>
+                            <li><a href="#features">Elements</a></li>
+                            <li><a href="#shop">Shop</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -47,11 +47,11 @@
                 <div class="container">
                     <div class="two-columns">
                         <div class="two-columns__col">
-                            <form class="feed-form promo__form" action="#" method="POST">
+                            <form class="feed-form promo__form" id="reserv-form" action="#" method="POST">
                                 <h2>Trial Class</h2>
                                 <fieldset>
                                     <input class="feed-form__item" name="name" required placeholder="Enter your name" type="text">
-                                    <input class="feed-form__item" name="phone" required placeholder="Enter your phone" type="phone">
+                                    <input class="feed-form__item" name="phone" required placeholder="Enter your phone" type="tel">
                                     <select class="feed-form__item" name="class">
                                         <option disabled selected>Chose your class</option>
                                         <option value="class1">Class 1</option>
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </section>
-            <section class="program">
+            <section class="program" id="program">
                 <h2 class="title">
                     Yoga FEATURE PROGRAM
                 </h2>
@@ -135,7 +135,7 @@
                 <li class="gallery__item"><a href="#gallery"><img src="img/gallery-7.png" alt=""></a></li>
                 <li class="gallery__item"><a href="#gallery"><img src="img/gallery-8.png" alt=""></a></li>
             </ul>
-            <section class="about">
+            <section class="about" id="about">
                 <div class="container">
                     <div class="two-columns">
                         <div class="two-columns__col">
@@ -184,7 +184,7 @@
                     </div>
                 </div>
             </section>
-            <section class="features">
+            <section class="features" id="features">
                 <div class="container">
                     <ul>
                         <li>
@@ -262,7 +262,7 @@
                     </ul>
                 </div>
             </section>
-            <div class="prices">
+            <div class="prices" id="shop">
                 <div class="container">
                     <ul>
                         <li>
